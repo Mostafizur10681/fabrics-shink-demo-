@@ -1,0 +1,81 @@
+:root {
+  --primary-color: #0d6efd;
+  --primary-dark: #0a58ca;
+  --secondary-color: #6c757d;
+  --success-color: #198754;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --dark-bg: #1e293b;
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+}
+
+body {
+  background-color: #f8fafc;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #334155;
+  min-height: 100vh;
+}
+
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #f1f5f9;
+  font-weight: 600;
+  border-top-left-radius: 0.75rem !important;
+  border-top-right-radius: 0.75rem !important;
+}
+
+.stat-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
+
+.table th {
+  background-color: #f8fafc;
+  color: #475569;
+  font-size: 0.825rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.badge-matched {
+  background-color: #d1fae5;
+  color: #065f46;
+  font-weight: 600;
+}
+
+.badge-no-match {
+  background-color: #fee2e2;
+  color: #991b1b;
+  font-weight: 600;
+}
+
+.badge-multiple {
+  background-color: #fef3c7;
+  color: #92400e;
+  font-weight: 600;
+}
+
+.badge-pending {
+  background-color: #e2e8f0;
+  color: #475569;
+  font-weight: 600;
+}
+
+.reading-input {
+  font-family: monospace;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
